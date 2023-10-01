@@ -8,7 +8,7 @@ body {
     align-items: center;
     min-height: 100%;
     margin: 0;
-    background: linear-gradient(to bottom, rgb(100, 169, 192), rgb(81, 105, 114));
+    background: linear-gradient(to bottom, rgb(101, 54, 98), rgb(81, 105, 114));
     text-align: center;
     font-family: sans-serif;
 }
@@ -40,4 +40,13 @@ button {
     border: 1px solid deepskyblue;
     border-radius: 8px;
     font-size: 16px;
+}
+
+#thankyouMessage{
+    opacity: 0;
+    transition: all 0.5s;
+    background-color: rgb(21, 41, 34);
+    padding: 20px;
+    border-radius: 15px;
+    color: antiquewhite;
 }
